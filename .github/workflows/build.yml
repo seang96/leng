@@ -12,7 +12,7 @@ env:
   REGISTRY: ghcr.io
   # github.repository as <account>/<repo>
   IMAGE_NAME: ${{ github.repository }}
-  REGISTRY_IMAGE: "ghcr.io/cottand/leng"
+  REGISTRY_IMAGE: "ghcr.io/seang96/leng"
 
 
 jobs:
