@@ -75,8 +75,8 @@ func main() {
 
 	server := &Server{
 		host:     config.Bind,
-		rTimeout: 5 * time.Second,
-		wTimeout: 5 * time.Second,
+		rTimeout: 10 * time.Second,
+		wTimeout: 10 * time.Second,
 	}
 
 	// BlockCache contains all blocked domains
